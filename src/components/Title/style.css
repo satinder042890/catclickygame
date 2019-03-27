@@ -1,0 +1,32 @@
+.jumbotron{
+   background-color: brown;
+    width:100%;
+    height:300px;
+    padding-top: 0;
+    padding-left: 0;
+}
+img{
+    width:100%;
+    height:300px;
+}
+.heading{
+    padding: 3%;
+    color:white;
+}
+@media screen and (max-width: 640px){
+    #headintro{
+        font-size:20px;
+    }
+    #head{
+        font-size: 30px;
+    }
+    .jumbotron{
+        height:250px;
+    }
+    img{
+        height:250px;
+    }
+    .heading{
+        padding:1%;
+    }
+ }
